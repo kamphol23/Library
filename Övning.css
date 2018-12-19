@@ -1,0 +1,222 @@
+body{
+background-image: url('https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-Old-Library-Wallpaper-PIC-WPD005432.jpg');
+font-family: "Comic Sans MS", cursive, sans-serif;
+
+ }
+Button{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	background-color:brown;
+	font-size: 20px;
+	border-radius: 15px 15px;
+}
+
+Button:hover{
+	color: snow;
+}
+
+input{
+	border: solid  1px brown;
+	border-radius: 15px 15px;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.contanier{
+border-radius: 15px 15px 15px;
+border: solid #0E0004;
+background-color: 	bisque;
+width: 800px;
+margin: 50px;
+margin-left: 250px;
+
+}
+
+
+@media (max-width: 650px) {
+  .contanier{
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+
+
+  }
+
+}
+
+
+#dataStatus_2{
+text-align: center;
+font-size: 20px;
+}
+
+
+@media (max-width: 650px) {
+  .bookcontanier{
+  background-color: green;
+
+  }
+
+}
+
+
+
+
+#requestKey{
+margin-left: 80px;
+border-radius: 15px 15px;
+background-color:brown;
+height: 50px;
+font-size: 15px;
+transition-duration: 0.4s;
+
+}
+
+@media (max-width: 650px) {
+  #requestKey{
+ margin-right: 50px;
+  }
+
+}
+
+
+#requestKey:hover {
+
+  color: snow;
+}
+
+
+#keyDisplay{
+margin: 10px;
+width: 200px;
+text-align: center;
+font-size: 20px;
+margin-left: 80px;
+}
+
+@media (max-width: 650px) {
+#keyDisplay{
+ margin-left: 40px;
+  }
+
+}
+
+
+
+#summitKey{
+ float: right;
+ margin-right: 80px;
+ border-radius: 15px 15px;
+ background-color:brown;
+ font-size: 20px;
+ letter-spacing: 2px;
+  transition-duration: 0.4s;
+}
+
+#summitKey:hover{
+ color:snow;
+}
+
+#apiId{
+  float: right;
+  margin-right: 80px;
+  border-radius: 15px 15px;
+  width: 150px;
+  height: 35px;
+  font-size: 20px;
+}
+
+
+.summit_cont{
+	margin-left: 130px;
+}
+
+li{
+list-style: none;
+color: #44281D;
+font-style: 14px;
+display: block;
+}
+
+
+
+
+.bookcontanier{
+background-color: #EEC671;
+border: 1px solid brown;
+border-radius: 15px 15px;
+display: flex;
+}
+
+.bookcontanier > ul{
+	color: #44281D;
+  width: 200px;
+	font-size: 20px;
+
+
+}
+
+
+
+#bokButton{
+	float: right;
+
+}
+
+
+
+
+
+@media (max-width: 650px) {
+  #apiId, #summitKey{
+    margin: 5px;
+
+  }
+}
+
+
+
+
+
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+
+.modal-content {
+  background-color: #E8E1CE;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 15px 15px;
+  width: 50%;
+
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
